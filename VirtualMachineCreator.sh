@@ -9,18 +9,27 @@ echo 'Welcome to Virtual Machine Creator !'
 
 echo 'First, choose a number betweeen 10 and 250 to build an ip address (192.168.33.XXX) :'
 read ip
-
 while [[ $ip -lt 10 || $ip -gt 250 ]];
 do
-	echo "The number must be greater than 10 and less than 250.. please choose a correct number";
+	echo "The number must be greater than 10 and less than 250.. please choose a correct number :";
 read ip
 done
 
 echo 'Now, please choose a name for your sync folder :'
 read syncFolder
+while [[ $syncFolder == "" ]];
+do
+  echo "You need to choose a name for the sync folder.. please enter a name :";
+read syncFolder
+done
 
 echo 'Finally, choose the name of your Vitual Machine :'
 read vitualMachineName
+while [[ $vitualMachineName == "" ]];
+do
+  echo "You need to choose a name for your Virtual Machine.. please enter a name :";
+read vitualMachineName
+done
 
 
 #### CREATE SYNCFOLDER ####
