@@ -10,7 +10,7 @@ Ce script permet de créer une Machine Virtuelle sur Linux (base Ubuntu/Xenial64
 - *Vagrant*
 
 ## Procédure d'installation :
-- Copier le script dans un nouveau dossier.
-- Le lancer via le terminal et attendre d'avoir switché dans le terminal de la VM. `VirtualMachineCreator.sh`
-- Se déplacer dans `/var/www/html/` et lancer le script `startInstall.sh` pour procéder à l'installation de tous les services nécessaires (Apache 2, PHP 7.2 et MySQL). Vous noterez au passage la présence dans ce même dossier du fichier PHP Adminer, un SGBD pour gérer vos Databases.
+- `git clone https://github.com/WesleyKln/VirtualMachineCreator.git`
+- Lancer le script `VirtualMachineCreator.sh` via le terminal et attendre d'avoir switché dans le terminal de la VM.
+- Aller dans `/var/www/html/` et lancer le script `startInstall.sh` pour procéder à l'installation de tous les services nécessaires (Apache 2, PHP 7.2 et MySQL). Vous noterez au passage la présence dans ce même dossier du fichier PHP Adminer, un SGBD pour gérer vos Databases.
 - C'est tout ! Have fun :facepunch:
