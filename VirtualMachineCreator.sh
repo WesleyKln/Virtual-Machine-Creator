@@ -54,6 +54,12 @@ end
 " >./Vagrantfile
 
 
+#### CREATE CSS FOLDER, DOWNLOAD NORMALIZE.CSS AND PASTE IT INTO CSS FOLDER ####
+
+mkdir ./$syncFolder/css
+sudo wget -cO - https://necolas.github.io/normalize.css/latest/normalize.css > ./$syncFolder/css/normalize.css
+
+
 #### DOWNLOAD ADMINER FOR MYSQL (v4.7.1) ####
 
 sudo wget -cO - https://www.adminer.org/latest-mysql.php > ./$syncFolder/adminer.php

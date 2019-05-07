@@ -3,7 +3,7 @@
 # Virtual Machine Creator
 
 Ce script permet de créer une Machine Virtuelle sur Linux (base Ubuntu/Xenial64) en un seul clic ( enfin presque.. c'est plutôt deux, mais c'est tout comme :smiley:) !
-> *Au cours du processus, vous pourrez choisir votre propre adresse ip, le nom du dossier synchronisé ainsi que le nom de la VM. Le script permet également de récupérer automatiquement la dernière version stable d'Adminer pour MySQL.*
+> *Au cours du processus, vous pourrez choisir votre propre adresse ip, le nom du dossier synchronisé ainsi que le nom de la VM. Le script permet également de récupérer automatiquement la dernière version stable d'Adminer pour MySQL ainsi que le Normalize.css.*
 
 #### Pré-requis :
 - *VirtualBox*
