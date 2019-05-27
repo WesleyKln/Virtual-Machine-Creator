@@ -80,6 +80,7 @@ sudo apt install php7.2 -y
 sudo apt install libapache2-mod-php7.2 -y
 sudo apt install php7.2-mysql -y
 sudo apt install mysql-server -y
+sudo apt install php-xdebug
 
 #### CHANGE THE DISPLAYS_ERRORS ON PHP.INI INTO ON ####
 
