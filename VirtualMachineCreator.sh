@@ -80,7 +80,14 @@ sudo apt install php7.2 -y
 sudo apt install libapache2-mod-php7.2 -y
 sudo apt install php7.2-mysql -y
 sudo apt install mysql-server -y
+
+## ADDED SOME STYLES TO PHP ERRORS ##
+
 sudo apt install php-xdebug
+
+## ADDED THE ZIP SUPPORT FOR DUPLICATOR PLUGIN OF WORDPRESS ##
+
+sudo apt-get install php7.2-zip
 
 #### CHANGE THE DISPLAYS_ERRORS ON PHP.INI INTO ON ####
 
