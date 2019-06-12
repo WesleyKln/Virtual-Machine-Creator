@@ -85,9 +85,10 @@ sudo apt install mysql-server -y
 
 sudo apt install php-xdebug
 
-## ADDED THE ZIP SUPPORT FOR DUPLICATOR PLUGIN OF WORDPRESS ##
+## ADDED PACKETS FOR DUPLICATOR PLUGIN OF WORDPRESS ##
 
-sudo apt-get install php7.2-zip
+sudo apt install php7.2-zip
+sudo apt install php7.2-mbstring
 
 #### CHANGE THE DISPLAYS_ERRORS ON PHP.INI INTO ON ####
 
